@@ -130,6 +130,9 @@ html{
   color: #444;
 } */
 
+.mainLogo>img{
+  width: 300px;
+  color: #000000;}
 h3 {
   margin-bottom: 20px;
   padding-bottom: 4px;
@@ -295,6 +298,11 @@ input:focus {
         display: none;
      
     }
+    .mainLogo{
+      width:35vw;
+      left: 50%;
+      
+    }
 
 
 }
@@ -317,6 +325,11 @@ input:focus {
             padding: 25px 20px;
 
     }
+    .mainLogo{
+      width:35vw;
+      left: 50%;
+      
+    }
 }
 @media(max-width:400px){
   .ParaAbtme{
@@ -337,6 +350,12 @@ input:focus {
 .abtmeLft>div>span{
   align-items: center;
   justify-content: center;
+  
+}
+.mainLogo{
+  width:55vw;
+  left: 50%;
+  
   
 }
 }
